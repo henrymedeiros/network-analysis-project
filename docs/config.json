@@ -13,14 +13,14 @@
     "title": "Marvel Comic Character Co-Occurrence"
   },
   "legend": {
-    "edgeLabel": "Link if they appear in the same Marvel comic",
+    "edgeLabel": "Appear in the same comic",
     "colorLabel": "Modularity",
     "nodeLabel": "Marvel character"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
-    "hoverBehavior": "default"
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
